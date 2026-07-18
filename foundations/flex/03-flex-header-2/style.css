@@ -19,14 +19,13 @@ body {
 
 .left {
   display: flex;
+  gap: 16px;
   align-items: center;
 }
 
 .right {
   display: flex;
   align-items: center;
-  margin: 0;
-  padding: 8px;
   gap: 16px;
 }
 
@@ -37,7 +36,6 @@ body {
   width: 48px;
   height: 48px;
 }
-
 
 .logo {
   color: rebeccapurple;
@@ -62,8 +60,8 @@ a {
 
 ul {
   display: flex;
-  padding: 16px;
   margin: 0;
+  padding: 0;
   gap: 16px;
   list-style-type: none;
 }
